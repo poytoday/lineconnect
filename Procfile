@@ -1,1 +1,1 @@
-web: gunicorn lineconnect2.wsgi
+web: gunicorn lineconnect.wsgi
