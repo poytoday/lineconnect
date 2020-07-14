@@ -44,6 +44,6 @@ def callback(request):
 def handle_text_message(event):
     # print('Here is handle_text_message function')
     dict_event = event.__dict__
-    # print(dict_event)		
-
-   	line_bot_api.reply_message(event.reply_token, TextSendMessage(text='สวัสดี'))
+    print(dict_event)
+    
+	# line_bot_api.reply_message(event.reply_token, TextSendMessage(text='สวัสดี'))
